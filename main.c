@@ -17,6 +17,10 @@ int main(void) {
     // Создал новую ветку
     // commit 5
 
+    int m[2] = {a, b};
 
+    for(int i = 0; i < 2; i++) {
+        printf("%d\n", m[i]);
+    }
     return 0;
 }
