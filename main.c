@@ -11,7 +11,9 @@ int main(void) {
     printf("Введите число b ");
     scanf("%d", &b);
 
-    printf("%d\n", a + b);
+    printf("%d\n", a - b);
+
+    // Создал новую ветку
 
     return 0;
 }
