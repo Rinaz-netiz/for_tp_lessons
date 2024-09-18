@@ -11,7 +11,7 @@ int main(void) {
     printf("Введите число b ");
     scanf("%d", &b);
 
-    printf("%d\n", a + b);
+    printf("%d\n", a - b);
 
     return 0;
 }
