@@ -22,5 +22,10 @@ int main(void) {
     for(int i = 0; i < 2; i++) {
         printf("%d\n", m[i]);
     }
+
+    int *ptr = &a;
+    *ptr = 100;
+
+    printf("%d\n", *ptr);
     return 0;
 }
