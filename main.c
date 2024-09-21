@@ -3,6 +3,7 @@
 //
 #include <stdio.h>
 
+#define TOTAL    10
 
 int main(void) {
     int a, b;
@@ -26,6 +27,5 @@ int main(void) {
     int *ptr = &a;
     *ptr = 100;
 
-    printf("%d\n", *ptr);
     return 0;
 }
