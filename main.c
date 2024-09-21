@@ -28,5 +28,6 @@ int main(void) {
     *ptr = 100;
 
     // c1 - master
+    // c2 - master
     return 0;
 }
