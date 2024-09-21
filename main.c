@@ -27,5 +27,6 @@ int main(void) {
     int *ptr = &a;
     *ptr = 100;
 
+    // c1 - master
     return 0;
 }
